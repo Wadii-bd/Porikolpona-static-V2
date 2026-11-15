@@ -8,12 +8,12 @@ This package integrates Professor Panda into the original PoriKolpona HSC study 
 - Animated mascot dock available throughout the workspace.
 - Contextual study tips, progress messages, focus encouragement, and celebration message.
 - A small hidden star in Settings → Appearance reveals the nickname editor. The nickname is saved in this browser.
-- Original mascot artwork and looping animated expressions are included in `assets/`.
+- Mascot artwork is in `assets/` (gently animated with CSS).
 - Responsive layout for desktop and mobile, with reduced-motion support inherited from the original app.
 
 ## Deploy
 
-This is a static HTML/CSS/JavaScript app. Upload the complete `PoriKolpona_Professor_Panda` folder to Netlify, or drag the ZIP to Netlify Drop after extracting it if needed. Keep the `assets` folder alongside `index.html`, `script.js`, and `style.css`.
+This is a static HTML/CSS/JavaScript app. Upload the complete project folder to Netlify, or drag the ZIP to Netlify Drop after extracting it if needed. Keep the `assets` folder alongside `index.html`, `script.js`, and `style.css`.
 
 ## Important data and authentication note
 

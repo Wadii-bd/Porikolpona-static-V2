@@ -157,3 +157,6 @@ legend{font-size:13px;font-weight:600;color:var(--mu);padding:0 4px}
 @media(max-width:800px){.panda-dock{right:12px;bottom:88px}.panda-trigger{width:62px;height:62px}.panda-intro{align-items:flex-start}.panda-intro>img{width:100px;height:100px}.panda-intro .mact{flex-wrap:wrap}}
 @media(max-width:440px){.panda-intro{gap:10px}.panda-intro>img{width:82px;height:82px;border-radius:15px}.panda-intro-copy h3{font-size:1rem}.panda-intro-copy .mact .btn{font-size:12px;padding:7px 9px}}
 .brand img{width:42px;height:42px;object-fit:cover;border-radius:12px}.wbrand img{width:54px;height:54px;object-fit:cover;border-radius:15px}
+.panda-intro>img,.panda-trigger img{object-fit:contain;animation:panda-bob 2.8s ease-in-out infinite}
+@keyframes panda-bob{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-4px) rotate(-2deg)}}
+@media(prefers-reduced-motion:reduce){.panda-intro>img,.panda-trigger img{animation:none}}
